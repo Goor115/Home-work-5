@@ -1,0 +1,58 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+.header {
+  width: 1200px;
+  margin: 0px auto;
+  height: 100px;
+  background-color: aqua;
+}
+
+.nav {
+  width: 1200px;
+  margin: 0px auto;
+  height: 50px;
+  background-color:hotpink;
+}
+
+.title {
+  margin: 0px;
+}
+
+.main {
+  width: 1200px;
+  margin: 0px auto;
+  height: 500px;
+  font-size: 0;
+}
+
+.aside {
+  display: inline-block;
+  width: 200px;
+  height: 500px;
+  background-color:darkgreen;
+  font-size: 16px;
+}
+
+.section {
+  display: inline-block;
+  width: 1000px;
+  height: 500px;
+  background-color: darkgray;
+  font-size: 16px;
+}
+
+.footer {
+  width: 1200px;
+  margin: 0px auto;
+  height: 50px;
+  background-color:blue;
+}
+
